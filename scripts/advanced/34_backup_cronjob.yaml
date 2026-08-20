@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata: { name: cluster-backup }
+spec:
+  schedule: "0 2 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          serviceAccountName: backup
+          restartPolicy: OnFailure
+          containers: [{ name: backup, image: backup-tool:1.0.0, command: [backup, --all-namespaces] }]

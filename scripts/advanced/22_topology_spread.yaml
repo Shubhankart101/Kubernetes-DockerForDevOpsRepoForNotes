@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: spread-api }
+spec:
+  replicas: 3
+  selector: { matchLabels: { app: spread-api } }
+  template:
+    metadata: { labels: { app: spread-api } }
+    spec:
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: topology.kubernetes.io/zone
+          whenUnsatisfiable: DoNotSchedule
+          labelSelector: { matchLabels: { app: spread-api } }
+      containers: [{ name: api, image: nginx:1.27-alpine }]

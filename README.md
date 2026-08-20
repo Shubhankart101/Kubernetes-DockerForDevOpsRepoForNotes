@@ -10,6 +10,7 @@ Practical notes and project-oriented use cases for container platforms, Kubernet
 
 ## Code examples and interview preparation
 
+- [34-script library](scripts/README.md)
 - [Azure container example](examples/azure/README.md)
 - [AWS container example](examples/aws/README.md)
 - [On-premises container example](examples/on-premises/README.md)

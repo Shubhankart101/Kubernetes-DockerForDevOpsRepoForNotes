@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: zone-aware-api }
+spec:
+  replicas: 3
+  selector: { matchLabels: { app: zone-aware-api } }
+  template:
+    metadata: { labels: { app: zone-aware-api } }
+    spec:
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector: { matchLabels: { app: zone-aware-api } }
+              topologyKey: topology.kubernetes.io/zone
+      containers: [{ name: api, image: nginx:1.27-alpine }]

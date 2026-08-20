@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: api-readiness }
+spec:
+  selector: { matchLabels: { app: api-readiness } }
+  template:
+    metadata: { labels: { app: api-readiness } }
+    spec:
+      containers:
+        - name: api
+          image: nginx:1.27-alpine
+          readinessProbe: { httpGet: { path: /, port: 80 } }

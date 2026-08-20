@@ -1,0 +1,2 @@
+FROM nginx:1.27-alpine
+HEALTHCHECK --interval=10s CMD wget -q -O - http://127.0.0.1/ || exit 1

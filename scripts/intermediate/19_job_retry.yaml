@@ -1,0 +1,9 @@
+apiVersion: batch/v1
+kind: Job
+metadata: { name: retryable-task }
+spec:
+  backoffLimit: 3
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers: [{ name: task, image: busybox:1.36, command: [sh, -c, 'echo work'] }]

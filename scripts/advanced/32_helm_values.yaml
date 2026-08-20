@@ -1,0 +1,9 @@
+replicaCount: 3
+image:
+  repository: registry.example/devtrack
+  tag: 1.2.3
+service:
+  type: ClusterIP
+resources:
+  requests: { cpu: 100m, memory: 128Mi }
+  limits: { cpu: 500m, memory: 512Mi }
