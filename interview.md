@@ -130,3 +130,36 @@ This bank contains 120 questions organized by difficulty. Use the manifests in `
 118. How do you manage secrets in Helm without leaking them?
 119. What failure modes exist in Docker-in-Docker CI?
 120. Design a secure, multi-region, observable Kubernetes platform with reversible releases.
+
+## HackerRank-Style Platform Challenges: 121-150
+
+121. Write a Dockerfile that uses a non-root user and minimal runtime image.
+122. Write a Dockerfile with a multi-stage build.
+123. Write a Deployment with three replicas and a readiness probe.
+124. Write a Service that selects only stable Pods.
+125. Mount one ConfigMap key as a file.
+126. Inject a Secret as an environment variable without committing plaintext.
+127. Write a Job that retries a migration three times.
+128. Write a non-overlapping CronJob for a nightly report.
+129. Add CPU and memory requests and limits to a Deployment.
+130. Write a liveness probe for a stuck HTTP process.
+131. Write an HPA scaling between two and ten replicas at 70% CPU.
+132. Write an Ingress route for `/api` with TLS.
+133. Write a default-deny NetworkPolicy and an API allow rule.
+134. Write a PVC and mount it at `/var/lib/app`.
+135. Write a PodDisruptionBudget preserving one replica.
+136. Write a zero-unavailable rolling update.
+137. Template an image repository and tag with Helm values.
+138. Write Helm helpers for stable names and labels.
+139. Write a Helm test Pod for a Service endpoint.
+140. Spread replicas across availability zones.
+141. Write pod anti-affinity for same-application replicas.
+142. Write taints and tolerations for a dedicated node pool.
+143. Write a restricted security context with dropped capabilities.
+144. Write a namespace ResourceQuota.
+145. Write a LimitRange with default requests and limits.
+146. Write a canary Service selecting `track: canary`.
+147. Write a ServiceAccount for cloud workload identity.
+148. Pin an image by digest to prevent tag drift.
+149. Write a backup CronJob with least privilege.
+150. Build a Helm application with probes, autoscaling, policy, security, and rollback.
