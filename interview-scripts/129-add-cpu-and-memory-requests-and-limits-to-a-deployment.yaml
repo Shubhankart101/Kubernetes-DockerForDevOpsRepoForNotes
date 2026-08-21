@@ -1,0 +1,32 @@
+# Question 129: Add CPU and memory requests and limits to a Deployment.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: interview-solution-129
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: interview-solution-129
+  template:
+    metadata:
+      labels:
+        app: interview-solution-129
+    spec:
+      containers:
+        - name: solution
+          image: nginx:1.27-alpine
+          ports:
+            - name: http
+              containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 250m
+              memory: 128Mi

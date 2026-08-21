@@ -1,0 +1,32 @@
+# Question 137: Template an image repository and tag with Helm values.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: interview-solution-137
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: interview-solution-137
+  template:
+    metadata:
+      labels:
+        app: interview-solution-137
+    spec:
+      containers:
+        - name: solution
+          image: nginx:1.27-alpine
+          ports:
+            - name: http
+              containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 250m
+              memory: 128Mi

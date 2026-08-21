@@ -1,0 +1,32 @@
+# Question 27: What is the difference between ClusterIP and LoadBalancer?
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: interview-solution-27
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: interview-solution-27
+  template:
+    metadata:
+      labels:
+        app: interview-solution-27
+    spec:
+      containers:
+        - name: solution
+          image: nginx:1.27-alpine
+          ports:
+            - name: http
+              containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 250m
+              memory: 128Mi
