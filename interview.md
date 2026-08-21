@@ -1,6 +1,60 @@
 # Kubernetes and Docker Interview Question Bank
 
-This bank contains 120 questions organized by difficulty. Use the manifests in `scripts/` and the chart in `helm/devops-app/` to build practical answers.
+This bank contains 150 questions organized by difficulty. Use the manifests in `scripts/` and the chart in `helm/devops-app/` to build practical answers.
+
+## Worked Answers
+
+### Beginner: replicated Deployment
+
+**Question:** Why use a Deployment instead of a bare Pod?
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: hello }
+spec:
+	replicas: 2
+	selector: { matchLabels: { app: hello } }
+	template:
+		metadata: { labels: { app: hello } }
+		spec:
+			containers: [{ name: web, image: nginx:1.27-alpine }]
+```
+
+The Deployment maintains replicas and supports rolling updates and rollback.
+
+### Intermediate: readiness and resources
+
+**Question:** How do you keep unready Pods out of traffic?
+
+```yaml
+containers:
+	- name: api
+		image: registry.example/api:1.2.3
+		readinessProbe: { httpGet: { path: /health, port: 8080 } }
+		resources:
+			requests: { cpu: 100m, memory: 128Mi }
+			limits: { cpu: 500m, memory: 512Mi }
+```
+
+Readiness controls traffic; requests guide scheduling and limits cap resource use.
+
+### Advanced: autoscaling and disruption protection
+
+```yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata: { name: api }
+spec:
+	scaleTargetRef: { apiVersion: apps/v1, kind: Deployment, name: api }
+	minReplicas: 3
+	maxReplicas: 20
+	metrics:
+		- type: Resource
+			resource: { name: cpu, target: { type: Utilization, averageUtilization: 70 } }
+```
+
+An HPA changes replica count from observed metrics; pair it with a PodDisruptionBudget and topology spread for resilient production behavior.
 
 ## Beginner: 1-40
 
