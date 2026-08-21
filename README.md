@@ -2,6 +2,12 @@
 
 Practical notes and project-oriented use cases for container platforms, Kubernetes operations, and DevOps delivery.
 
+## Companion Kubernetes Administration Repository
+
+For CKA-style labs, cluster setup, scheduling, storage, RBAC, networking, ingress, Gateway API, troubleshooting, and Kubernetes administration reference material, see [Kubernetes Administration and CKA Practice](https://github.com/Shubhankart101/kubernetes).
+
+This repository focuses on Kubernetes and Docker DevOps use cases, container delivery, Helm, cloud deployment contexts, and interview preparation.
+
 ## Deployment use cases
 
 - [Azure use cases](projects/use-cases/azure.md)
