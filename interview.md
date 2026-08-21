@@ -308,35 +308,65 @@ An HPA changes replica count from observed metrics; pair it with a PodDisruption
 ## HackerRank-Style Platform Challenges: 121-150
 
 121. Write a Dockerfile that uses a non-root user and minimal runtime image.
+**Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
 122. Write a Dockerfile with a multi-stage build.
+**Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
 123. Write a Deployment with three replicas and a readiness probe.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 124. Write a Service that selects only stable Pods.
+**Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
 125. Mount one ConfigMap key as a file.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 126. Inject a Secret as an environment variable without committing plaintext.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 127. Write a Job that retries a migration three times.
+**Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
 128. Write a non-overlapping CronJob for a nightly report.
+**Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
 129. Add CPU and memory requests and limits to a Deployment.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 130. Write a liveness probe for a stuck HTTP process.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 131. Write an HPA scaling between two and ten replicas at 70% CPU.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 132. Write an Ingress route for `/api` with TLS.
+**Answer:** Use explicit authentication, timeouts, status handling, pagination, rate-limit handling, and structured response validation; never place credentials in source.
 133. Write a default-deny NetworkPolicy and an API allow rule.
+**Answer:** Use explicit authentication, timeouts, status handling, pagination, rate-limit handling, and structured response validation; never place credentials in source.
 134. Write a PVC and mount it at `/var/lib/app`.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 135. Write a PodDisruptionBudget preserving one replica.
+**Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
 136. Write a zero-unavailable rolling update.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 137. Template an image repository and tag with Helm values.
+**Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
 138. Write Helm helpers for stable names and labels.
+**Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
 139. Write a Helm test Pod for a Service endpoint.
+**Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
 140. Spread replicas across availability zones.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 141. Write pod anti-affinity for same-application replicas.
+**Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
 142. Write taints and tolerations for a dedicated node pool.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 143. Write a restricted security context with dropped capabilities.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 144. Write a namespace ResourceQuota.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 145. Write a LimitRange with default requests and limits.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
 146. Write a canary Service selecting `track: canary`.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 147. Write a ServiceAccount for cloud workload identity.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 148. Pin an image by digest to prevent tag drift.
+**Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
 149. Write a backup CronJob with least privilege.
+**Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
 150. Build a Helm application with probes, autoscaling, policy, security, and rollback.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 
 ## Executable Answers
 
