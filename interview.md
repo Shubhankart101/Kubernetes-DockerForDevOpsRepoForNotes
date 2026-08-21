@@ -163,3 +163,9 @@ This bank contains 120 questions organized by difficulty. Use the manifests in `
 148. Pin an image by digest to prevent tag drift.
 149. Write a backup CronJob with least privilege.
 150. Build a Helm application with probes, autoscaling, policy, security, and rollback.
+
+## Executable Answers
+
+- [Beginner answers](interview-answers/beginner.yaml): a basic replicated Deployment.
+- [Intermediate answers](interview-answers/intermediate.yaml): probes and resource governance.
+- [Advanced answers](interview-answers/advanced.yaml): autoscaling and disruption protection.
