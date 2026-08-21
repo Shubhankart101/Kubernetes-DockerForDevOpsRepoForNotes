@@ -60,7 +60,7 @@ An HPA changes replica count from observed metrics; pair it with a PodDisruption
 
 1. What problem does Docker solve?
 **Answer:** It addresses a recurring DevOps need by making delivery, operations, or infrastructure repeatable, reviewable, and safer to automate.
-Script: [Question 1 script](interview-scripts/001-what-problem-does-docker-solve.yaml)
+<a href="interview-scripts/001-what-problem-does-docker-solve.yaml"><img src="https://img.shields.io/badge/Question%201%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 1 script"></a>
 ```yaml
 # Question 1: What problem does Docker solve?
 apiVersion: apps/v1
@@ -98,7 +98,7 @@ spec:
 
 2. What is a container image?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 2 script](interview-scripts/002-what-is-a-container-image.yaml)
+<a href="interview-scripts/002-what-is-a-container-image.yaml"><img src="https://img.shields.io/badge/Question%202%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 2 script"></a>
 ```yaml
 # Question 2: What is a container image?
 apiVersion: apps/v1
@@ -136,7 +136,7 @@ spec:
 
 3. What is a container?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 3 script](interview-scripts/003-what-is-a-container.yaml)
+<a href="interview-scripts/003-what-is-a-container.yaml"><img src="https://img.shields.io/badge/Question%203%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 3 script"></a>
 ```yaml
 # Question 3: What is a container?
 apiVersion: apps/v1
@@ -174,7 +174,7 @@ spec:
 
 4. What is the difference between an image and a container?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 4 script](interview-scripts/004-what-is-the-difference-between-an-image-and-a-container.yaml)
+<a href="interview-scripts/004-what-is-the-difference-between-an-image-and-a-container.yaml"><img src="https://img.shields.io/badge/Question%204%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 4 script"></a>
 ```yaml
 # Question 4: What is the difference between an image and a container?
 apiVersion: apps/v1
@@ -212,7 +212,7 @@ spec:
 
 5. What is a Dockerfile?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 5 script](interview-scripts/005-what-is-a-dockerfile.yaml)
+<a href="interview-scripts/005-what-is-a-dockerfile.yaml"><img src="https://img.shields.io/badge/Question%205%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 5 script"></a>
 ```yaml
 # Question 5: What is a Dockerfile?
 apiVersion: apps/v1
@@ -250,7 +250,7 @@ spec:
 
 6. What does `FROM` do in a Dockerfile?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 6 script](interview-scripts/006-what-does-from-do-in-a-dockerfile.yaml)
+<a href="interview-scripts/006-what-does-from-do-in-a-dockerfile.yaml"><img src="https://img.shields.io/badge/Question%206%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 6 script"></a>
 ```yaml
 # Question 6: What does `FROM` do in a Dockerfile?
 apiVersion: apps/v1
@@ -288,7 +288,7 @@ spec:
 
 7. What is a Docker image layer?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 7 script](interview-scripts/007-what-is-a-docker-image-layer.yaml)
+<a href="interview-scripts/007-what-is-a-docker-image-layer.yaml"><img src="https://img.shields.io/badge/Question%207%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 7 script"></a>
 ```yaml
 # Question 7: What is a Docker image layer?
 apiVersion: apps/v1
@@ -326,7 +326,7 @@ spec:
 
 8. Why should images use fixed tags?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 8 script](interview-scripts/008-why-should-images-use-fixed-tags.yaml)
+<a href="interview-scripts/008-why-should-images-use-fixed-tags.yaml"><img src="https://img.shields.io/badge/Question%208%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 8 script"></a>
 ```yaml
 # Question 8: Why should images use fixed tags?
 apiVersion: apps/v1
@@ -364,7 +364,7 @@ spec:
 
 9. What does `EXPOSE` document?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 9 script](interview-scripts/009-what-does-expose-document.yaml)
+<a href="interview-scripts/009-what-does-expose-document.yaml"><img src="https://img.shields.io/badge/Question%209%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 9 script"></a>
 ```yaml
 # Question 9: What does `EXPOSE` document?
 apiVersion: apps/v1
@@ -402,7 +402,7 @@ spec:
 
 10. What is the purpose of `CMD`?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 10 script](interview-scripts/010-what-is-the-purpose-of-cmd.yaml)
+<a href="interview-scripts/010-what-is-the-purpose-of-cmd.yaml"><img src="https://img.shields.io/badge/Question%2010%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 10 script"></a>
 ```yaml
 # Question 10: What is the purpose of `CMD`?
 apiVersion: apps/v1
@@ -440,7 +440,7 @@ spec:
 
 11. How does `ENTRYPOINT` differ from `CMD`?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 11 script](interview-scripts/011-how-does-entrypoint-differ-from-cmd.yaml)
+<a href="interview-scripts/011-how-does-entrypoint-differ-from-cmd.yaml"><img src="https://img.shields.io/badge/Question%2011%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 11 script"></a>
 ```yaml
 # Question 11: How does `ENTRYPOINT` differ from `CMD`?
 apiVersion: apps/v1
@@ -478,7 +478,7 @@ spec:
 
 12. What is a container registry?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 12 script](interview-scripts/012-what-is-a-container-registry.yaml)
+<a href="interview-scripts/012-what-is-a-container-registry.yaml"><img src="https://img.shields.io/badge/Question%2012%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 12 script"></a>
 ```yaml
 # Question 12: What is a container registry?
 apiVersion: apps/v1
@@ -516,7 +516,7 @@ spec:
 
 13. What problem does Kubernetes solve?
 **Answer:** It addresses a recurring DevOps need by making delivery, operations, or infrastructure repeatable, reviewable, and safer to automate.
-Script: [Question 13 script](interview-scripts/013-what-problem-does-kubernetes-solve.yaml)
+<a href="interview-scripts/013-what-problem-does-kubernetes-solve.yaml"><img src="https://img.shields.io/badge/Question%2013%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 13 script"></a>
 ```yaml
 # Question 13: What problem does Kubernetes solve?
 apiVersion: apps/v1
@@ -554,7 +554,7 @@ spec:
 
 14. What is a Kubernetes cluster?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 14 script](interview-scripts/014-what-is-a-kubernetes-cluster.yaml)
+<a href="interview-scripts/014-what-is-a-kubernetes-cluster.yaml"><img src="https://img.shields.io/badge/Question%2014%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 14 script"></a>
 ```yaml
 # Question 14: What is a Kubernetes cluster?
 apiVersion: apps/v1
@@ -592,7 +592,7 @@ spec:
 
 15. What is a Kubernetes node?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 15 script](interview-scripts/015-what-is-a-kubernetes-node.yaml)
+<a href="interview-scripts/015-what-is-a-kubernetes-node.yaml"><img src="https://img.shields.io/badge/Question%2015%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 15 script"></a>
 ```yaml
 # Question 15: What is a Kubernetes node?
 apiVersion: apps/v1
@@ -630,7 +630,7 @@ spec:
 
 16. What is a Pod?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 16 script](interview-scripts/016-what-is-a-pod.yaml)
+<a href="interview-scripts/016-what-is-a-pod.yaml"><img src="https://img.shields.io/badge/Question%2016%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 16 script"></a>
 ```yaml
 # Question 16: What is a Pod?
 apiVersion: apps/v1
@@ -668,7 +668,7 @@ spec:
 
 17. Why is a Deployment preferred over a bare Pod?
 **Answer:** Separate validation, build, promotion, and verification; use immutable artifacts, protected production controls, and an observable rollback path.
-Script: [Question 17 script](interview-scripts/017-why-is-a-deployment-preferred-over-a-bare-pod.yaml)
+<a href="interview-scripts/017-why-is-a-deployment-preferred-over-a-bare-pod.yaml"><img src="https://img.shields.io/badge/Question%2017%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 17 script"></a>
 ```yaml
 # Question 17: Why is a Deployment preferred over a bare Pod?
 apiVersion: apps/v1
@@ -706,7 +706,7 @@ spec:
 
 18. What is a ReplicaSet?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 18 script](interview-scripts/018-what-is-a-replicaset.yaml)
+<a href="interview-scripts/018-what-is-a-replicaset.yaml"><img src="https://img.shields.io/badge/Question%2018%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 18 script"></a>
 ```yaml
 # Question 18: What is a ReplicaSet?
 apiVersion: apps/v1
@@ -744,7 +744,7 @@ spec:
 
 19. What is a Kubernetes Service?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 19 script](interview-scripts/019-what-is-a-kubernetes-service.yaml)
+<a href="interview-scripts/019-what-is-a-kubernetes-service.yaml"><img src="https://img.shields.io/badge/Question%2019%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 19 script"></a>
 ```yaml
 # Question 19: What is a Kubernetes Service?
 apiVersion: apps/v1
@@ -782,7 +782,7 @@ spec:
 
 20. How does a Service find Pods?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 20 script](interview-scripts/020-how-does-a-service-find-pods.yaml)
+<a href="interview-scripts/020-how-does-a-service-find-pods.yaml"><img src="https://img.shields.io/badge/Question%2020%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 20 script"></a>
 ```yaml
 # Question 20: How does a Service find Pods?
 apiVersion: apps/v1
@@ -820,7 +820,7 @@ spec:
 
 21. What is a label?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 21 script](interview-scripts/021-what-is-a-label.yaml)
+<a href="interview-scripts/021-what-is-a-label.yaml"><img src="https://img.shields.io/badge/Question%2021%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 21 script"></a>
 ```yaml
 # Question 21: What is a label?
 apiVersion: apps/v1
@@ -858,7 +858,7 @@ spec:
 
 22. What is a selector?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 22 script](interview-scripts/022-what-is-a-selector.yaml)
+<a href="interview-scripts/022-what-is-a-selector.yaml"><img src="https://img.shields.io/badge/Question%2022%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 22 script"></a>
 ```yaml
 # Question 22: What is a selector?
 apiVersion: apps/v1
@@ -896,7 +896,7 @@ spec:
 
 23. What is a namespace?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 23 script](interview-scripts/023-what-is-a-namespace.yaml)
+<a href="interview-scripts/023-what-is-a-namespace.yaml"><img src="https://img.shields.io/badge/Question%2023%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 23 script"></a>
 ```yaml
 # Question 23: What is a namespace?
 apiVersion: apps/v1
@@ -934,7 +934,7 @@ spec:
 
 24. What is a ConfigMap?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 24 script](interview-scripts/024-what-is-a-configmap.yaml)
+<a href="interview-scripts/024-what-is-a-configmap.yaml"><img src="https://img.shields.io/badge/Question%2024%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 24 script"></a>
 ```yaml
 # Question 24: What is a ConfigMap?
 apiVersion: apps/v1
@@ -972,7 +972,7 @@ spec:
 
 25. What is a Secret?
 **Answer:** Keep the value in a protected secret store or workload identity, pass it at runtime, redact it from logs, and never commit it to source control.
-Script: [Question 25 script](interview-scripts/025-what-is-a-secret.yaml)
+<a href="interview-scripts/025-what-is-a-secret.yaml"><img src="https://img.shields.io/badge/Question%2025%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 25 script"></a>
 ```yaml
 # Question 25: What is a Secret?
 apiVersion: apps/v1
@@ -1010,7 +1010,7 @@ spec:
 
 26. How do you expose a container port?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 26 script](interview-scripts/026-how-do-you-expose-a-container-port.yaml)
+<a href="interview-scripts/026-how-do-you-expose-a-container-port.yaml"><img src="https://img.shields.io/badge/Question%2026%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 26 script"></a>
 ```yaml
 # Question 26: How do you expose a container port?
 apiVersion: apps/v1
@@ -1048,7 +1048,7 @@ spec:
 
 27. What is the difference between ClusterIP and LoadBalancer?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 27 script](interview-scripts/027-what-is-the-difference-between-clusterip-and-loadbalanc.yaml)
+<a href="interview-scripts/027-what-is-the-difference-between-clusterip-and-loadbalanc.yaml"><img src="https://img.shields.io/badge/Question%2027%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 27 script"></a>
 ```yaml
 # Question 27: What is the difference between ClusterIP and LoadBalancer?
 apiVersion: apps/v1
@@ -1086,7 +1086,7 @@ spec:
 
 28. What is a Job?
 **Answer:** Separate validation, build, promotion, and verification; use immutable artifacts, protected production controls, and an observable rollback path.
-Script: [Question 28 script](interview-scripts/028-what-is-a-job.yaml)
+<a href="interview-scripts/028-what-is-a-job.yaml"><img src="https://img.shields.io/badge/Question%2028%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 28 script"></a>
 ```yaml
 # Question 28: What is a Job?
 apiVersion: apps/v1
@@ -1124,7 +1124,7 @@ spec:
 
 29. What is a CronJob?
 **Answer:** Separate validation, build, promotion, and verification; use immutable artifacts, protected production controls, and an observable rollback path.
-Script: [Question 29 script](interview-scripts/029-what-is-a-cronjob.yaml)
+<a href="interview-scripts/029-what-is-a-cronjob.yaml"><img src="https://img.shields.io/badge/Question%2029%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 29 script"></a>
 ```yaml
 # Question 29: What is a CronJob?
 apiVersion: apps/v1
@@ -1162,7 +1162,7 @@ spec:
 
 30. What does `kubectl apply` do?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 30 script](interview-scripts/030-what-does-kubectl-apply-do.yaml)
+<a href="interview-scripts/030-what-does-kubectl-apply-do.yaml"><img src="https://img.shields.io/badge/Question%2030%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 30 script"></a>
 ```yaml
 # Question 30: What does `kubectl apply` do?
 apiVersion: apps/v1
@@ -1200,7 +1200,7 @@ spec:
 
 31. How do you inspect Pod logs?
 **Answer:** Emit structured, correlation-aware telemetry with enough context to diagnose duration, failures, deployment version, and affected environment.
-Script: [Question 31 script](interview-scripts/031-how-do-you-inspect-pod-logs.yaml)
+<a href="interview-scripts/031-how-do-you-inspect-pod-logs.yaml"><img src="https://img.shields.io/badge/Question%2031%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 31 script"></a>
 ```yaml
 # Question 31: How do you inspect Pod logs?
 apiVersion: apps/v1
@@ -1238,7 +1238,7 @@ spec:
 
 32. How do you describe a failing Pod?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 32 script](interview-scripts/032-how-do-you-describe-a-failing-pod.yaml)
+<a href="interview-scripts/032-how-do-you-describe-a-failing-pod.yaml"><img src="https://img.shields.io/badge/Question%2032%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 32 script"></a>
 ```yaml
 # Question 32: How do you describe a failing Pod?
 apiVersion: apps/v1
@@ -1276,7 +1276,7 @@ spec:
 
 33. What is a readiness probe?
 **Answer:** Check a meaningful dependency or application endpoint, fail the operation when the check fails, and use the result to stop or roll back promotion.
-Script: [Question 33 script](interview-scripts/033-what-is-a-readiness-probe.yaml)
+<a href="interview-scripts/033-what-is-a-readiness-probe.yaml"><img src="https://img.shields.io/badge/Question%2033%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 33 script"></a>
 ```yaml
 # Question 33: What is a readiness probe?
 apiVersion: apps/v1
@@ -1314,7 +1314,7 @@ spec:
 
 34. What is a liveness probe?
 **Answer:** Check a meaningful dependency or application endpoint, fail the operation when the check fails, and use the result to stop or roll back promotion.
-Script: [Question 34 script](interview-scripts/034-what-is-a-liveness-probe.yaml)
+<a href="interview-scripts/034-what-is-a-liveness-probe.yaml"><img src="https://img.shields.io/badge/Question%2034%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 34 script"></a>
 ```yaml
 # Question 34: What is a liveness probe?
 apiVersion: apps/v1
@@ -1352,7 +1352,7 @@ spec:
 
 35. What is a resource request?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 35 script](interview-scripts/035-what-is-a-resource-request.yaml)
+<a href="interview-scripts/035-what-is-a-resource-request.yaml"><img src="https://img.shields.io/badge/Question%2035%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 35 script"></a>
 ```yaml
 # Question 35: What is a resource request?
 apiVersion: apps/v1
@@ -1390,7 +1390,7 @@ spec:
 
 36. What is a resource limit?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 36 script](interview-scripts/036-what-is-a-resource-limit.yaml)
+<a href="interview-scripts/036-what-is-a-resource-limit.yaml"><img src="https://img.shields.io/badge/Question%2036%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 36 script"></a>
 ```yaml
 # Question 36: What is a resource limit?
 apiVersion: apps/v1
@@ -1428,7 +1428,7 @@ spec:
 
 37. What is Helm?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 37 script](interview-scripts/037-what-is-helm.yaml)
+<a href="interview-scripts/037-what-is-helm.yaml"><img src="https://img.shields.io/badge/Question%2037%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 37 script"></a>
 ```yaml
 # Question 37: What is Helm?
 apiVersion: apps/v1
@@ -1466,7 +1466,7 @@ spec:
 
 38. What is a Helm chart?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 38 script](interview-scripts/038-what-is-a-helm-chart.yaml)
+<a href="interview-scripts/038-what-is-a-helm-chart.yaml"><img src="https://img.shields.io/badge/Question%2038%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 38 script"></a>
 ```yaml
 # Question 38: What is a Helm chart?
 apiVersion: apps/v1
@@ -1504,7 +1504,7 @@ spec:
 
 39. What is `values.yaml`?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 39 script](interview-scripts/039-what-is-values-yaml.yaml)
+<a href="interview-scripts/039-what-is-values-yaml.yaml"><img src="https://img.shields.io/badge/Question%2039%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 39 script"></a>
 ```yaml
 # Question 39: What is `values.yaml`?
 apiVersion: apps/v1
@@ -1542,7 +1542,7 @@ spec:
 
 40. How do you roll back a Deployment?
 **Answer:** Separate validation, build, promotion, and verification; use immutable artifacts, protected production controls, and an observable rollback path.
-Script: [Question 40 script](interview-scripts/040-how-do-you-roll-back-a-deployment.yaml)
+<a href="interview-scripts/040-how-do-you-roll-back-a-deployment.yaml"><img src="https://img.shields.io/badge/Question%2040%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 40 script"></a>
 ```yaml
 # Question 40: How do you roll back a Deployment?
 apiVersion: apps/v1
@@ -1583,7 +1583,7 @@ spec:
 
 41. Explain Kubernetes control-plane components.
 **Answer:** Extract the behavior behind a small documented interface, keep inputs and outputs explicit, and test the reusable unit independently.
-Script: [Question 41 script](interview-scripts/041-explain-kubernetes-control-plane-components.yaml)
+<a href="interview-scripts/041-explain-kubernetes-control-plane-components.yaml"><img src="https://img.shields.io/badge/Question%2041%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 41 script"></a>
 ```yaml
 # Question 41: Explain Kubernetes control-plane components.
 apiVersion: apps/v1
@@ -1621,7 +1621,7 @@ spec:
 
 42. What does the API server do?
 **Answer:** Use a structured client, explicit timeouts, status handling, pagination, schema validation, and safe authentication rather than string parsing.
-Script: [Question 42 script](interview-scripts/042-what-does-the-api-server-do.yaml)
+<a href="interview-scripts/042-what-does-the-api-server-do.yaml"><img src="https://img.shields.io/badge/Question%2042%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 42 script"></a>
 ```yaml
 # Question 42: What does the API server do?
 apiVersion: apps/v1
@@ -1659,7 +1659,7 @@ spec:
 
 43. What is stored in etcd?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 43 script](interview-scripts/043-what-is-stored-in-etcd.yaml)
+<a href="interview-scripts/043-what-is-stored-in-etcd.yaml"><img src="https://img.shields.io/badge/Question%2043%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 43 script"></a>
 ```yaml
 # Question 43: What is stored in etcd?
 apiVersion: apps/v1
@@ -1697,7 +1697,7 @@ spec:
 
 44. What does the scheduler consider when placing a Pod?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 44 script](interview-scripts/044-what-does-the-scheduler-consider-when-placing-a-pod.yaml)
+<a href="interview-scripts/044-what-does-the-scheduler-consider-when-placing-a-pod.yaml"><img src="https://img.shields.io/badge/Question%2044%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 44 script"></a>
 ```yaml
 # Question 44: What does the scheduler consider when placing a Pod?
 apiVersion: apps/v1
@@ -1735,7 +1735,7 @@ spec:
 
 45. What does the controller manager reconcile?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 45 script](interview-scripts/045-what-does-the-controller-manager-reconcile.yaml)
+<a href="interview-scripts/045-what-does-the-controller-manager-reconcile.yaml"><img src="https://img.shields.io/badge/Question%2045%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 45 script"></a>
 ```yaml
 # Question 45: What does the controller manager reconcile?
 apiVersion: apps/v1
@@ -1773,7 +1773,7 @@ spec:
 
 46. How does kubelet manage a Pod?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 46 script](interview-scripts/046-how-does-kubelet-manage-a-pod.yaml)
+<a href="interview-scripts/046-how-does-kubelet-manage-a-pod.yaml"><img src="https://img.shields.io/badge/Question%2046%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 46 script"></a>
 ```yaml
 # Question 46: How does kubelet manage a Pod?
 apiVersion: apps/v1
@@ -1811,7 +1811,7 @@ spec:
 
 47. How does CoreDNS support Service discovery?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 47 script](interview-scripts/047-how-does-coredns-support-service-discovery.yaml)
+<a href="interview-scripts/047-how-does-coredns-support-service-discovery.yaml"><img src="https://img.shields.io/badge/Question%2047%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 47 script"></a>
 ```yaml
 # Question 47: How does CoreDNS support Service discovery?
 apiVersion: apps/v1
@@ -1849,7 +1849,7 @@ spec:
 
 48. Explain a Deployment rolling update.
 **Answer:** Bound concurrency, preserve a small failure domain, verify health between batches, and stop promotion when the error budget is exceeded.
-Script: [Question 48 script](interview-scripts/048-explain-a-deployment-rolling-update.yaml)
+<a href="interview-scripts/048-explain-a-deployment-rolling-update.yaml"><img src="https://img.shields.io/badge/Question%2048%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 48 script"></a>
 ```yaml
 # Question 48: Explain a Deployment rolling update.
 apiVersion: apps/v1
@@ -1887,7 +1887,7 @@ spec:
 
 49. What are `maxSurge` and `maxUnavailable`?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 49 script](interview-scripts/049-what-are-maxsurge-and-maxunavailable.yaml)
+<a href="interview-scripts/049-what-are-maxsurge-and-maxunavailable.yaml"><img src="https://img.shields.io/badge/Question%2049%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 49 script"></a>
 ```yaml
 # Question 49: What are `maxSurge` and `maxUnavailable`?
 apiVersion: apps/v1
@@ -1925,7 +1925,7 @@ spec:
 
 50. How do you pause and resume a rollout?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 50 script](interview-scripts/050-how-do-you-pause-and-resume-a-rollout.yaml)
+<a href="interview-scripts/050-how-do-you-pause-and-resume-a-rollout.yaml"><img src="https://img.shields.io/badge/Question%2050%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 50 script"></a>
 ```yaml
 # Question 50: How do you pause and resume a rollout?
 apiVersion: apps/v1
@@ -1963,7 +1963,7 @@ spec:
 
 51. How do you debug `CrashLoopBackOff`?
 **Answer:** Retry only transient failures, use bounded exponential backoff with jitter, and return the final error when the retry budget is exhausted.
-Script: [Question 51 script](interview-scripts/051-how-do-you-debug-crashloopbackoff.yaml)
+<a href="interview-scripts/051-how-do-you-debug-crashloopbackoff.yaml"><img src="https://img.shields.io/badge/Question%2051%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 51 script"></a>
 ```yaml
 # Question 51: How do you debug `CrashLoopBackOff`?
 apiVersion: apps/v1
@@ -2001,7 +2001,7 @@ spec:
 
 52. How do you debug `ImagePullBackOff`?
 **Answer:** Retry only transient failures, use bounded exponential backoff with jitter, and return the final error when the retry budget is exhausted.
-Script: [Question 52 script](interview-scripts/052-how-do-you-debug-imagepullbackoff.yaml)
+<a href="interview-scripts/052-how-do-you-debug-imagepullbackoff.yaml"><img src="https://img.shields.io/badge/Question%2052%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 52 script"></a>
 ```yaml
 # Question 52: How do you debug `ImagePullBackOff`?
 apiVersion: apps/v1
@@ -2039,7 +2039,7 @@ spec:
 
 53. How do requests and limits affect scheduling?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 53 script](interview-scripts/053-how-do-requests-and-limits-affect-scheduling.yaml)
+<a href="interview-scripts/053-how-do-requests-and-limits-affect-scheduling.yaml"><img src="https://img.shields.io/badge/Question%2053%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 53 script"></a>
 ```yaml
 # Question 53: How do requests and limits affect scheduling?
 apiVersion: apps/v1
@@ -2077,7 +2077,7 @@ spec:
 
 54. What is a HorizontalPodAutoscaler?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 54 script](interview-scripts/054-what-is-a-horizontalpodautoscaler.yaml)
+<a href="interview-scripts/054-what-is-a-horizontalpodautoscaler.yaml"><img src="https://img.shields.io/badge/Question%2054%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 54 script"></a>
 ```yaml
 # Question 54: What is a HorizontalPodAutoscaler?
 apiVersion: apps/v1
@@ -2115,7 +2115,7 @@ spec:
 
 55. What metrics can drive an HPA?
 **Answer:** Emit structured, correlation-aware telemetry with enough context to diagnose duration, failures, deployment version, and affected environment.
-Script: [Question 55 script](interview-scripts/055-what-metrics-can-drive-an-hpa.yaml)
+<a href="interview-scripts/055-what-metrics-can-drive-an-hpa.yaml"><img src="https://img.shields.io/badge/Question%2055%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 55 script"></a>
 ```yaml
 # Question 55: What metrics can drive an HPA?
 apiVersion: apps/v1
@@ -2153,7 +2153,7 @@ spec:
 
 56. What is a PodDisruptionBudget?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 56 script](interview-scripts/056-what-is-a-poddisruptionbudget.yaml)
+<a href="interview-scripts/056-what-is-a-poddisruptionbudget.yaml"><img src="https://img.shields.io/badge/Question%2056%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 56 script"></a>
 ```yaml
 # Question 56: What is a PodDisruptionBudget?
 apiVersion: apps/v1
@@ -2191,7 +2191,7 @@ spec:
 
 57. What is an Ingress?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 57 script](interview-scripts/057-what-is-an-ingress.yaml)
+<a href="interview-scripts/057-what-is-an-ingress.yaml"><img src="https://img.shields.io/badge/Question%2057%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 57 script"></a>
 ```yaml
 # Question 57: What is an Ingress?
 apiVersion: apps/v1
@@ -2229,7 +2229,7 @@ spec:
 
 58. How does an ingress controller work?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 58 script](interview-scripts/058-how-does-an-ingress-controller-work.yaml)
+<a href="interview-scripts/058-how-does-an-ingress-controller-work.yaml"><img src="https://img.shields.io/badge/Question%2058%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 58 script"></a>
 ```yaml
 # Question 58: How does an ingress controller work?
 apiVersion: apps/v1
@@ -2267,7 +2267,7 @@ spec:
 
 59. What is a NetworkPolicy?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 59 script](interview-scripts/059-what-is-a-networkpolicy.yaml)
+<a href="interview-scripts/059-what-is-a-networkpolicy.yaml"><img src="https://img.shields.io/badge/Question%2059%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 59 script"></a>
 ```yaml
 # Question 59: What is a NetworkPolicy?
 apiVersion: apps/v1
@@ -2305,7 +2305,7 @@ spec:
 
 60. What happens when no NetworkPolicy selects a Pod?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 60 script](interview-scripts/060-what-happens-when-no-networkpolicy-selects-a-pod.yaml)
+<a href="interview-scripts/060-what-happens-when-no-networkpolicy-selects-a-pod.yaml"><img src="https://img.shields.io/badge/Question%2060%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 60 script"></a>
 ```yaml
 # Question 60: What happens when no NetworkPolicy selects a Pod?
 apiVersion: apps/v1
@@ -2343,7 +2343,7 @@ spec:
 
 61. How do you mount a ConfigMap as a file?
 **Answer:** Use structured filesystem APIs, validate paths, quote inputs, handle missing resources deliberately, and avoid unsafe traversal or shell expansion.
-Script: [Question 61 script](interview-scripts/061-how-do-you-mount-a-configmap-as-a-file.yaml)
+<a href="interview-scripts/061-how-do-you-mount-a-configmap-as-a-file.yaml"><img src="https://img.shields.io/badge/Question%2061%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 61 script"></a>
 ```yaml
 # Question 61: How do you mount a ConfigMap as a file?
 apiVersion: apps/v1
@@ -2381,7 +2381,7 @@ spec:
 
 62. How should Secrets be handled in production?
 **Answer:** Keep the value in a protected secret store or workload identity, pass it at runtime, redact it from logs, and never commit it to source control.
-Script: [Question 62 script](interview-scripts/062-how-should-secrets-be-handled-in-production.yaml)
+<a href="interview-scripts/062-how-should-secrets-be-handled-in-production.yaml"><img src="https://img.shields.io/badge/Question%2062%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 62 script"></a>
 ```yaml
 # Question 62: How should Secrets be handled in production?
 apiVersion: apps/v1
@@ -2419,7 +2419,7 @@ spec:
 
 63. What is a PersistentVolume?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 63 script](interview-scripts/063-what-is-a-persistentvolume.yaml)
+<a href="interview-scripts/063-what-is-a-persistentvolume.yaml"><img src="https://img.shields.io/badge/Question%2063%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 63 script"></a>
 ```yaml
 # Question 63: What is a PersistentVolume?
 apiVersion: apps/v1
@@ -2457,7 +2457,7 @@ spec:
 
 64. What is a PersistentVolumeClaim?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 64 script](interview-scripts/064-what-is-a-persistentvolumeclaim.yaml)
+<a href="interview-scripts/064-what-is-a-persistentvolumeclaim.yaml"><img src="https://img.shields.io/badge/Question%2064%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 64 script"></a>
 ```yaml
 # Question 64: What is a PersistentVolumeClaim?
 apiVersion: apps/v1
@@ -2495,7 +2495,7 @@ spec:
 
 65. Explain ReadWriteOnce and ReadWriteMany.
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 65 script](interview-scripts/065-explain-readwriteonce-and-readwritemany.yaml)
+<a href="interview-scripts/065-explain-readwriteonce-and-readwritemany.yaml"><img src="https://img.shields.io/badge/Question%2065%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 65 script"></a>
 ```yaml
 # Question 65: Explain ReadWriteOnce and ReadWriteMany.
 apiVersion: apps/v1
@@ -2533,7 +2533,7 @@ spec:
 
 66. How do StatefulSets differ from Deployments?
 **Answer:** Store shared state remotely with encryption, access control, locking, versioning, and a tested recovery process.
-Script: [Question 66 script](interview-scripts/066-how-do-statefulsets-differ-from-deployments.yaml)
+<a href="interview-scripts/066-how-do-statefulsets-differ-from-deployments.yaml"><img src="https://img.shields.io/badge/Question%2066%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 66 script"></a>
 ```yaml
 # Question 66: How do StatefulSets differ from Deployments?
 apiVersion: apps/v1
@@ -2571,7 +2571,7 @@ spec:
 
 67. When should you use a DaemonSet?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 67 script](interview-scripts/067-when-should-you-use-a-daemonset.yaml)
+<a href="interview-scripts/067-when-should-you-use-a-daemonset.yaml"><img src="https://img.shields.io/badge/Question%2067%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 67 script"></a>
 ```yaml
 # Question 67: When should you use a DaemonSet?
 apiVersion: apps/v1
@@ -2609,7 +2609,7 @@ spec:
 
 68. When should you use an init container?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 68 script](interview-scripts/068-when-should-you-use-an-init-container.yaml)
+<a href="interview-scripts/068-when-should-you-use-an-init-container.yaml"><img src="https://img.shields.io/badge/Question%2068%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 68 script"></a>
 ```yaml
 # Question 68: When should you use an init container?
 apiVersion: apps/v1
@@ -2647,7 +2647,7 @@ spec:
 
 69. What is a sidecar container?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 69 script](interview-scripts/069-what-is-a-sidecar-container.yaml)
+<a href="interview-scripts/069-what-is-a-sidecar-container.yaml"><img src="https://img.shields.io/badge/Question%2069%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 69 script"></a>
 ```yaml
 # Question 69: What is a sidecar container?
 apiVersion: apps/v1
@@ -2685,7 +2685,7 @@ spec:
 
 70. How do Jobs retry failed work?
 **Answer:** Retry only transient failures, use bounded exponential backoff with jitter, and return the final error when the retry budget is exhausted.
-Script: [Question 70 script](interview-scripts/070-how-do-jobs-retry-failed-work.yaml)
+<a href="interview-scripts/070-how-do-jobs-retry-failed-work.yaml"><img src="https://img.shields.io/badge/Question%2070%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 70 script"></a>
 ```yaml
 # Question 70: How do Jobs retry failed work?
 apiVersion: apps/v1
@@ -2723,7 +2723,7 @@ spec:
 
 71. How do you make a CronJob idempotent?
 **Answer:** Make the operation converge on the declared state and check the current state before mutating it, so a second run produces no unnecessary change.
-Script: [Question 71 script](interview-scripts/071-how-do-you-make-a-cronjob-idempotent.yaml)
+<a href="interview-scripts/071-how-do-you-make-a-cronjob-idempotent.yaml"><img src="https://img.shields.io/badge/Question%2071%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 71 script"></a>
 ```yaml
 # Question 71: How do you make a CronJob idempotent?
 apiVersion: apps/v1
@@ -2761,7 +2761,7 @@ spec:
 
 72. What is a ServiceAccount?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 72 script](interview-scripts/072-what-is-a-serviceaccount.yaml)
+<a href="interview-scripts/072-what-is-a-serviceaccount.yaml"><img src="https://img.shields.io/badge/Question%2072%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 72 script"></a>
 ```yaml
 # Question 72: What is a ServiceAccount?
 apiVersion: apps/v1
@@ -2799,7 +2799,7 @@ spec:
 
 73. What is RBAC?
 **Answer:** Apply least privilege, isolate trust boundaries, validate policy in CI or admission, and record auditable changes.
-Script: [Question 73 script](interview-scripts/073-what-is-rbac.yaml)
+<a href="interview-scripts/073-what-is-rbac.yaml"><img src="https://img.shields.io/badge/Question%2073%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 73 script"></a>
 ```yaml
 # Question 73: What is RBAC?
 apiVersion: apps/v1
@@ -2837,7 +2837,7 @@ spec:
 
 74. Explain Role and ClusterRole.
 **Answer:** Extract the behavior behind a small documented interface, keep inputs and outputs explicit, and test the reusable unit independently.
-Script: [Question 74 script](interview-scripts/074-explain-role-and-clusterrole.yaml)
+<a href="interview-scripts/074-explain-role-and-clusterrole.yaml"><img src="https://img.shields.io/badge/Question%2074%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 74 script"></a>
 ```yaml
 # Question 74: Explain Role and ClusterRole.
 apiVersion: apps/v1
@@ -2875,7 +2875,7 @@ spec:
 
 75. Explain RoleBinding and ClusterRoleBinding.
 **Answer:** Extract the behavior behind a small documented interface, keep inputs and outputs explicit, and test the reusable unit independently.
-Script: [Question 75 script](interview-scripts/075-explain-rolebinding-and-clusterrolebinding.yaml)
+<a href="interview-scripts/075-explain-rolebinding-and-clusterrolebinding.yaml"><img src="https://img.shields.io/badge/Question%2075%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 75 script"></a>
 ```yaml
 # Question 75: Explain RoleBinding and ClusterRoleBinding.
 apiVersion: apps/v1
@@ -2913,7 +2913,7 @@ spec:
 
 76. How do you inspect resource usage?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 76 script](interview-scripts/076-how-do-you-inspect-resource-usage.yaml)
+<a href="interview-scripts/076-how-do-you-inspect-resource-usage.yaml"><img src="https://img.shields.io/badge/Question%2076%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 76 script"></a>
 ```yaml
 # Question 76: How do you inspect resource usage?
 apiVersion: apps/v1
@@ -2951,7 +2951,7 @@ spec:
 
 77. What is a namespace ResourceQuota?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 77 script](interview-scripts/077-what-is-a-namespace-resourcequota.yaml)
+<a href="interview-scripts/077-what-is-a-namespace-resourcequota.yaml"><img src="https://img.shields.io/badge/Question%2077%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 77 script"></a>
 ```yaml
 # Question 77: What is a namespace ResourceQuota?
 apiVersion: apps/v1
@@ -2989,7 +2989,7 @@ spec:
 
 78. What is a LimitRange?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 78 script](interview-scripts/078-what-is-a-limitrange.yaml)
+<a href="interview-scripts/078-what-is-a-limitrange.yaml"><img src="https://img.shields.io/badge/Question%2078%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 78 script"></a>
 ```yaml
 # Question 78: What is a LimitRange?
 apiVersion: apps/v1
@@ -3027,7 +3027,7 @@ spec:
 
 79. How does Helm templating work?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 79 script](interview-scripts/079-how-does-helm-templating-work.yaml)
+<a href="interview-scripts/079-how-does-helm-templating-work.yaml"><img src="https://img.shields.io/badge/Question%2079%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 79 script"></a>
 ```yaml
 # Question 79: How does Helm templating work?
 apiVersion: apps/v1
@@ -3065,7 +3065,7 @@ spec:
 
 80. How do you lint and render a Helm chart?
 **Answer:** Automate syntax, static analysis, unit, and integration checks in CI; fail early and publish useful diagnostics as artifacts.
-Script: [Question 80 script](interview-scripts/080-how-do-you-lint-and-render-a-helm-chart.yaml)
+<a href="interview-scripts/080-how-do-you-lint-and-render-a-helm-chart.yaml"><img src="https://img.shields.io/badge/Question%2080%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 80 script"></a>
 ```yaml
 # Question 80: How do you lint and render a Helm chart?
 apiVersion: apps/v1
@@ -3106,7 +3106,7 @@ spec:
 
 81. Design a highly available Kubernetes control plane.
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 81 script](interview-scripts/081-design-a-highly-available-kubernetes-control-plane.yaml)
+<a href="interview-scripts/081-design-a-highly-available-kubernetes-control-plane.yaml"><img src="https://img.shields.io/badge/Question%2081%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 81 script"></a>
 ```yaml
 # Question 81: Design a highly available Kubernetes control plane.
 apiVersion: apps/v1
@@ -3144,7 +3144,7 @@ spec:
 
 82. How does etcd quorum affect availability?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 82 script](interview-scripts/082-how-does-etcd-quorum-affect-availability.yaml)
+<a href="interview-scripts/082-how-does-etcd-quorum-affect-availability.yaml"><img src="https://img.shields.io/badge/Question%2082%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 82 script"></a>
 ```yaml
 # Question 82: How does etcd quorum affect availability?
 apiVersion: apps/v1
@@ -3182,7 +3182,7 @@ spec:
 
 83. How do you back up and restore etcd?
 **Answer:** Keep the previous known-good version, validate the replacement, and automate a tested rollback or restore path with clear ownership and audit output.
-Script: [Question 83 script](interview-scripts/083-how-do-you-back-up-and-restore-etcd.yaml)
+<a href="interview-scripts/083-how-do-you-back-up-and-restore-etcd.yaml"><img src="https://img.shields.io/badge/Question%2083%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 83 script"></a>
 ```yaml
 # Question 83: How do you back up and restore etcd?
 apiVersion: apps/v1
@@ -3220,7 +3220,7 @@ spec:
 
 84. How do you upgrade a production cluster safely?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 84 script](interview-scripts/084-how-do-you-upgrade-a-production-cluster-safely.yaml)
+<a href="interview-scripts/084-how-do-you-upgrade-a-production-cluster-safely.yaml"><img src="https://img.shields.io/badge/Question%2084%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 84 script"></a>
 ```yaml
 # Question 84: How do you upgrade a production cluster safely?
 apiVersion: apps/v1
@@ -3258,7 +3258,7 @@ spec:
 
 85. How do you drain a node without violating availability?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 85 script](interview-scripts/085-how-do-you-drain-a-node-without-violating-availability.yaml)
+<a href="interview-scripts/085-how-do-you-drain-a-node-without-violating-availability.yaml"><img src="https://img.shields.io/badge/Question%2085%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 85 script"></a>
 ```yaml
 # Question 85: How do you drain a node without violating availability?
 apiVersion: apps/v1
@@ -3296,7 +3296,7 @@ spec:
 
 86. How do you spread replicas across zones?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 86 script](interview-scripts/086-how-do-you-spread-replicas-across-zones.yaml)
+<a href="interview-scripts/086-how-do-you-spread-replicas-across-zones.yaml"><img src="https://img.shields.io/badge/Question%2086%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 86 script"></a>
 ```yaml
 # Question 86: How do you spread replicas across zones?
 apiVersion: apps/v1
@@ -3334,7 +3334,7 @@ spec:
 
 87. Explain pod affinity and anti-affinity.
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 87 script](interview-scripts/087-explain-pod-affinity-and-anti-affinity.yaml)
+<a href="interview-scripts/087-explain-pod-affinity-and-anti-affinity.yaml"><img src="https://img.shields.io/badge/Question%2087%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 87 script"></a>
 ```yaml
 # Question 87: Explain pod affinity and anti-affinity.
 apiVersion: apps/v1
@@ -3372,7 +3372,7 @@ spec:
 
 88. What are topology spread constraints?
 **Answer:** Emit structured, correlation-aware telemetry with enough context to diagnose duration, failures, deployment version, and affected environment.
-Script: [Question 88 script](interview-scripts/088-what-are-topology-spread-constraints.yaml)
+<a href="interview-scripts/088-what-are-topology-spread-constraints.yaml"><img src="https://img.shields.io/badge/Question%2088%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 88 script"></a>
 ```yaml
 # Question 88: What are topology spread constraints?
 apiVersion: apps/v1
@@ -3410,7 +3410,7 @@ spec:
 
 89. How do taints and tolerations support isolation?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 89 script](interview-scripts/089-how-do-taints-and-tolerations-support-isolation.yaml)
+<a href="interview-scripts/089-how-do-taints-and-tolerations-support-isolation.yaml"><img src="https://img.shields.io/badge/Question%2089%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 89 script"></a>
 ```yaml
 # Question 89: How do taints and tolerations support isolation?
 apiVersion: apps/v1
@@ -3448,7 +3448,7 @@ spec:
 
 90. How do you design separate system and workload node pools?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 90 script](interview-scripts/090-how-do-you-design-separate-system-and-workload-node-poo.yaml)
+<a href="interview-scripts/090-how-do-you-design-separate-system-and-workload-node-poo.yaml"><img src="https://img.shields.io/badge/Question%2090%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 90 script"></a>
 ```yaml
 # Question 90: How do you design separate system and workload node pools?
 apiVersion: apps/v1
@@ -3486,7 +3486,7 @@ spec:
 
 91. How do cluster and node autoscaling interact?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 91 script](interview-scripts/091-how-do-cluster-and-node-autoscaling-interact.yaml)
+<a href="interview-scripts/091-how-do-cluster-and-node-autoscaling-interact.yaml"><img src="https://img.shields.io/badge/Question%2091%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 91 script"></a>
 ```yaml
 # Question 91: How do cluster and node autoscaling interact?
 apiVersion: apps/v1
@@ -3524,7 +3524,7 @@ spec:
 
 92. How do you prevent autoscaling oscillation?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 92 script](interview-scripts/092-how-do-you-prevent-autoscaling-oscillation.yaml)
+<a href="interview-scripts/092-how-do-you-prevent-autoscaling-oscillation.yaml"><img src="https://img.shields.io/badge/Question%2092%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 92 script"></a>
 ```yaml
 # Question 92: How do you prevent autoscaling oscillation?
 apiVersion: apps/v1
@@ -3562,7 +3562,7 @@ spec:
 
 93. Design an SLO-driven rollout strategy.
 **Answer:** Check a meaningful dependency or application endpoint, fail the operation when the check fails, and use the result to stop or roll back promotion.
-Script: [Question 93 script](interview-scripts/093-design-an-slo-driven-rollout-strategy.yaml)
+<a href="interview-scripts/093-design-an-slo-driven-rollout-strategy.yaml"><img src="https://img.shields.io/badge/Question%2093%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 93 script"></a>
 ```yaml
 # Question 93: Design an SLO-driven rollout strategy.
 apiVersion: apps/v1
@@ -3600,7 +3600,7 @@ spec:
 
 94. How do you implement canary deployment?
 **Answer:** Bound concurrency, preserve a small failure domain, verify health between batches, and stop promotion when the error budget is exceeded.
-Script: [Question 94 script](interview-scripts/094-how-do-you-implement-canary-deployment.yaml)
+<a href="interview-scripts/094-how-do-you-implement-canary-deployment.yaml"><img src="https://img.shields.io/badge/Question%2094%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 94 script"></a>
 ```yaml
 # Question 94: How do you implement canary deployment?
 apiVersion: apps/v1
@@ -3638,7 +3638,7 @@ spec:
 
 95. How do you implement blue-green deployment?
 **Answer:** Bound concurrency, preserve a small failure domain, verify health between batches, and stop promotion when the error budget is exceeded.
-Script: [Question 95 script](interview-scripts/095-how-do-you-implement-blue-green-deployment.yaml)
+<a href="interview-scripts/095-how-do-you-implement-blue-green-deployment.yaml"><img src="https://img.shields.io/badge/Question%2095%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 95 script"></a>
 ```yaml
 # Question 95: How do you implement blue-green deployment?
 apiVersion: apps/v1
@@ -3676,7 +3676,7 @@ spec:
 
 96. How do you combine readiness gates with traffic shifting?
 **Answer:** Check a meaningful dependency or application endpoint, fail the operation when the check fails, and use the result to stop or roll back promotion.
-Script: [Question 96 script](interview-scripts/096-how-do-you-combine-readiness-gates-with-traffic-shiftin.yaml)
+<a href="interview-scripts/096-how-do-you-combine-readiness-gates-with-traffic-shiftin.yaml"><img src="https://img.shields.io/badge/Question%2096%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 96 script"></a>
 ```yaml
 # Question 96: How do you combine readiness gates with traffic shifting?
 apiVersion: apps/v1
@@ -3714,7 +3714,7 @@ spec:
 
 97. How do you design a multi-tenant cluster?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 97 script](interview-scripts/097-how-do-you-design-a-multi-tenant-cluster.yaml)
+<a href="interview-scripts/097-how-do-you-design-a-multi-tenant-cluster.yaml"><img src="https://img.shields.io/badge/Question%2097%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 97 script"></a>
 ```yaml
 # Question 97: How do you design a multi-tenant cluster?
 apiVersion: apps/v1
@@ -3752,7 +3752,7 @@ spec:
 
 98. How do namespaces, RBAC, quotas, and NetworkPolicies combine?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 98 script](interview-scripts/098-how-do-namespaces-rbac-quotas-and-networkpolicies-combi.yaml)
+<a href="interview-scripts/098-how-do-namespaces-rbac-quotas-and-networkpolicies-combi.yaml"><img src="https://img.shields.io/badge/Question%2098%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 98 script"></a>
 ```yaml
 # Question 98: How do namespaces, RBAC, quotas, and NetworkPolicies combine?
 apiVersion: apps/v1
@@ -3790,7 +3790,7 @@ spec:
 
 99. How do you enforce Pod Security Standards?
 **Answer:** Apply least privilege, isolate trust boundaries, validate policy in CI or admission, and record auditable changes.
-Script: [Question 99 script](interview-scripts/099-how-do-you-enforce-pod-security-standards.yaml)
+<a href="interview-scripts/099-how-do-you-enforce-pod-security-standards.yaml"><img src="https://img.shields.io/badge/Question%2099%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 99 script"></a>
 ```yaml
 # Question 99: How do you enforce Pod Security Standards?
 apiVersion: apps/v1
@@ -3828,7 +3828,7 @@ spec:
 
 100. How do you prevent privileged containers?
 **Answer:** Apply least privilege, isolate trust boundaries, validate policy in CI or admission, and record auditable changes.
-Script: [Question 100 script](interview-scripts/100-how-do-you-prevent-privileged-containers.yaml)
+<a href="interview-scripts/100-how-do-you-prevent-privileged-containers.yaml"><img src="https://img.shields.io/badge/Question%20100%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 100 script"></a>
 ```yaml
 # Question 100: How do you prevent privileged containers?
 apiVersion: apps/v1
@@ -3866,7 +3866,7 @@ spec:
 
 101. How do you secure the container supply chain?
 **Answer:** Apply least privilege, isolate trust boundaries, validate policy in CI or admission, and record auditable changes.
-Script: [Question 101 script](interview-scripts/101-how-do-you-secure-the-container-supply-chain.yaml)
+<a href="interview-scripts/101-how-do-you-secure-the-container-supply-chain.yaml"><img src="https://img.shields.io/badge/Question%20101%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 101 script"></a>
 ```yaml
 # Question 101: How do you secure the container supply chain?
 apiVersion: apps/v1
@@ -3904,7 +3904,7 @@ spec:
 
 102. Why use digest-pinned images?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 102 script](interview-scripts/102-why-use-digest-pinned-images.yaml)
+<a href="interview-scripts/102-why-use-digest-pinned-images.yaml"><img src="https://img.shields.io/badge/Question%20102%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 102 script"></a>
 ```yaml
 # Question 102: Why use digest-pinned images?
 apiVersion: apps/v1
@@ -3942,7 +3942,7 @@ spec:
 
 103. How do image signing and admission verification work?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 103 script](interview-scripts/103-how-do-image-signing-and-admission-verification-work.yaml)
+<a href="interview-scripts/103-how-do-image-signing-and-admission-verification-work.yaml"><img src="https://img.shields.io/badge/Question%20103%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 103 script"></a>
 ```yaml
 # Question 103: How do image signing and admission verification work?
 apiVersion: apps/v1
@@ -3980,7 +3980,7 @@ spec:
 
 104. How do you design private registry access?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 104 script](interview-scripts/104-how-do-you-design-private-registry-access.yaml)
+<a href="interview-scripts/104-how-do-you-design-private-registry-access.yaml"><img src="https://img.shields.io/badge/Question%20104%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 104 script"></a>
 ```yaml
 # Question 104: How do you design private registry access?
 apiVersion: apps/v1
@@ -4018,7 +4018,7 @@ spec:
 
 105. How do you use workload identity on Azure?
 **Answer:** Use provider-native identity with least privilege, explicit environment boundaries, tagging, policy controls, and repeatable infrastructure definitions.
-Script: [Question 105 script](interview-scripts/105-how-do-you-use-workload-identity-on-azure.yaml)
+<a href="interview-scripts/105-how-do-you-use-workload-identity-on-azure.yaml"><img src="https://img.shields.io/badge/Question%20105%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 105 script"></a>
 ```yaml
 # Question 105: How do you use workload identity on Azure?
 apiVersion: apps/v1
@@ -4056,7 +4056,7 @@ spec:
 
 106. How do you use IAM roles for service accounts on AWS?
 **Answer:** Extract the behavior behind a small documented interface, keep inputs and outputs explicit, and test the reusable unit independently.
-Script: [Question 106 script](interview-scripts/106-how-do-you-use-iam-roles-for-service-accounts-on-aws.yaml)
+<a href="interview-scripts/106-how-do-you-use-iam-roles-for-service-accounts-on-aws.yaml"><img src="https://img.shields.io/badge/Question%20106%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 106 script"></a>
 ```yaml
 # Question 106: How do you use IAM roles for service accounts on AWS?
 apiVersion: apps/v1
@@ -4094,7 +4094,7 @@ spec:
 
 107. How do you design AKS networking?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 107 script](interview-scripts/107-how-do-you-design-aks-networking.yaml)
+<a href="interview-scripts/107-how-do-you-design-aks-networking.yaml"><img src="https://img.shields.io/badge/Question%20107%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 107 script"></a>
 ```yaml
 # Question 107: How do you design AKS networking?
 apiVersion: apps/v1
@@ -4132,7 +4132,7 @@ spec:
 
 108. How do you design EKS networking?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 108 script](interview-scripts/108-how-do-you-design-eks-networking.yaml)
+<a href="interview-scripts/108-how-do-you-design-eks-networking.yaml"><img src="https://img.shields.io/badge/Question%20108%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 108 script"></a>
 ```yaml
 # Question 108: How do you design EKS networking?
 apiVersion: apps/v1
@@ -4170,7 +4170,7 @@ spec:
 
 109. How do you connect on-premises clusters to cloud services?
 **Answer:** Define the smallest required traffic path, restrict it with policy and identity, and verify connectivity from the same network boundary as the workload.
-Script: [Question 109 script](interview-scripts/109-how-do-you-connect-on-premises-clusters-to-cloud-servic.yaml)
+<a href="interview-scripts/109-how-do-you-connect-on-premises-clusters-to-cloud-servic.yaml"><img src="https://img.shields.io/badge/Question%20109%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 109 script"></a>
 ```yaml
 # Question 109: How do you connect on-premises clusters to cloud services?
 apiVersion: apps/v1
@@ -4208,7 +4208,7 @@ spec:
 
 110. How do you observe cluster, node, and application health?
 **Answer:** Check a meaningful dependency or application endpoint, fail the operation when the check fails, and use the result to stop or roll back promotion.
-Script: [Question 110 script](interview-scripts/110-how-do-you-observe-cluster-node-and-application-health.yaml)
+<a href="interview-scripts/110-how-do-you-observe-cluster-node-and-application-health.yaml"><img src="https://img.shields.io/badge/Question%20110%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 110 script"></a>
 ```yaml
 # Question 110: How do you observe cluster, node, and application health?
 apiVersion: apps/v1
@@ -4246,7 +4246,7 @@ spec:
 
 111. How do you correlate traces with deployment versions?
 **Answer:** Emit structured, correlation-aware telemetry with enough context to diagnose duration, failures, deployment version, and affected environment.
-Script: [Question 111 script](interview-scripts/111-how-do-you-correlate-traces-with-deployment-versions.yaml)
+<a href="interview-scripts/111-how-do-you-correlate-traces-with-deployment-versions.yaml"><img src="https://img.shields.io/badge/Question%20111%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 111 script"></a>
 ```yaml
 # Question 111: How do you correlate traces with deployment versions?
 apiVersion: apps/v1
@@ -4284,7 +4284,7 @@ spec:
 
 112. How do you perform capacity planning?
 **Answer:** Declare requests and limits, measure real usage, set explicit capacity bounds, and test behavior under saturation and recovery.
-Script: [Question 112 script](interview-scripts/112-how-do-you-perform-capacity-planning.yaml)
+<a href="interview-scripts/112-how-do-you-perform-capacity-planning.yaml"><img src="https://img.shields.io/badge/Question%20112%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 112 script"></a>
 ```yaml
 # Question 112: How do you perform capacity planning?
 apiVersion: apps/v1
@@ -4322,7 +4322,7 @@ spec:
 
 113. How do you recover from a control-plane outage?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 113 script](interview-scripts/113-how-do-you-recover-from-a-control-plane-outage.yaml)
+<a href="interview-scripts/113-how-do-you-recover-from-a-control-plane-outage.yaml"><img src="https://img.shields.io/badge/Question%20113%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 113 script"></a>
 ```yaml
 # Question 113: How do you recover from a control-plane outage?
 apiVersion: apps/v1
@@ -4360,7 +4360,7 @@ spec:
 
 114. How do you recover from a registry outage?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 114 script](interview-scripts/114-how-do-you-recover-from-a-registry-outage.yaml)
+<a href="interview-scripts/114-how-do-you-recover-from-a-registry-outage.yaml"><img src="https://img.shields.io/badge/Question%20114%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 114 script"></a>
 ```yaml
 # Question 114: How do you recover from a registry outage?
 apiVersion: apps/v1
@@ -4398,7 +4398,7 @@ spec:
 
 115. How do you test backup restoration?
 **Answer:** Automate syntax, static analysis, unit, and integration checks in CI; fail early and publish useful diagnostics as artifacts.
-Script: [Question 115 script](interview-scripts/115-how-do-you-test-backup-restoration.yaml)
+<a href="interview-scripts/115-how-do-you-test-backup-restoration.yaml"><img src="https://img.shields.io/badge/Question%20115%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 115 script"></a>
 ```yaml
 # Question 115: How do you test backup restoration?
 apiVersion: apps/v1
@@ -4436,7 +4436,7 @@ spec:
 
 116. Explain Helm release history and rollback behavior.
 **Answer:** Keep the previous known-good version, validate the replacement, and automate a tested rollback or restore path with clear ownership and audit output.
-Script: [Question 116 script](interview-scripts/116-explain-helm-release-history-and-rollback-behavior.yaml)
+<a href="interview-scripts/116-explain-helm-release-history-and-rollback-behavior.yaml"><img src="https://img.shields.io/badge/Question%20116%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 116 script"></a>
 ```yaml
 # Question 116: Explain Helm release history and rollback behavior.
 apiVersion: apps/v1
@@ -4474,7 +4474,7 @@ spec:
 
 117. How do you version and promote Helm charts?
 **Answer:** A strong answer should define the concept, show a small Kubernetes and Docker implementation, explain failure behavior, and describe how it would be tested in CI.
-Script: [Question 117 script](interview-scripts/117-how-do-you-version-and-promote-helm-charts.yaml)
+<a href="interview-scripts/117-how-do-you-version-and-promote-helm-charts.yaml"><img src="https://img.shields.io/badge/Question%20117%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 117 script"></a>
 ```yaml
 # Question 117: How do you version and promote Helm charts?
 apiVersion: apps/v1
@@ -4512,7 +4512,7 @@ spec:
 
 118. How do you manage secrets in Helm without leaking them?
 **Answer:** Keep the value in a protected secret store or workload identity, pass it at runtime, redact it from logs, and never commit it to source control.
-Script: [Question 118 script](interview-scripts/118-how-do-you-manage-secrets-in-helm-without-leaking-them.yaml)
+<a href="interview-scripts/118-how-do-you-manage-secrets-in-helm-without-leaking-them.yaml"><img src="https://img.shields.io/badge/Question%20118%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 118 script"></a>
 ```yaml
 # Question 118: How do you manage secrets in Helm without leaking them?
 apiVersion: apps/v1
@@ -4550,7 +4550,7 @@ spec:
 
 119. What failure modes exist in Docker-in-Docker CI?
 **Answer:** Build a minimal immutable image, pin dependencies, scan and sign it, publish it to a controlled registry, and deploy by digest when possible.
-Script: [Question 119 script](interview-scripts/119-what-failure-modes-exist-in-docker-in-docker-ci.yaml)
+<a href="interview-scripts/119-what-failure-modes-exist-in-docker-in-docker-ci.yaml"><img src="https://img.shields.io/badge/Question%20119%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 119 script"></a>
 ```yaml
 # Question 119: What failure modes exist in Docker-in-Docker CI?
 apiVersion: apps/v1
@@ -4588,7 +4588,7 @@ spec:
 
 120. Design a secure, multi-region, observable Kubernetes platform with reversible releases.
 **Answer:** Emit structured, correlation-aware telemetry with enough context to diagnose duration, failures, deployment version, and affected environment.
-Script: [Question 120 script](interview-scripts/120-design-a-secure-multi-region-observable-kubernetes-plat.yaml)
+<a href="interview-scripts/120-design-a-secure-multi-region-observable-kubernetes-plat.yaml"><img src="https://img.shields.io/badge/Question%20120%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 120 script"></a>
 ```yaml
 # Question 120: Design a secure, multi-region, observable Kubernetes platform with reversible releases.
 apiVersion: apps/v1
@@ -4629,7 +4629,7 @@ spec:
 
 121. Write a Dockerfile that uses a non-root user and minimal runtime image.
 **Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
-Script: [Question 121 script](interview-scripts/121-write-a-dockerfile-that-uses-a-non-root-user-and-minima.yaml)
+<a href="interview-scripts/121-write-a-dockerfile-that-uses-a-non-root-user-and-minima.yaml"><img src="https://img.shields.io/badge/Question%20121%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 121 script"></a>
 ```yaml
 # Question 121: Write a Dockerfile that uses a non-root user and minimal runtime image.
 apiVersion: apps/v1
@@ -4667,7 +4667,7 @@ spec:
 
 122. Write a Dockerfile with a multi-stage build.
 **Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
-Script: [Question 122 script](interview-scripts/122-write-a-dockerfile-with-a-multi-stage-build.yaml)
+<a href="interview-scripts/122-write-a-dockerfile-with-a-multi-stage-build.yaml"><img src="https://img.shields.io/badge/Question%20122%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 122 script"></a>
 ```yaml
 # Question 122: Write a Dockerfile with a multi-stage build.
 apiVersion: apps/v1
@@ -4705,7 +4705,7 @@ spec:
 
 123. Write a Deployment with three replicas and a readiness probe.
 **Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
-Script: [Question 123 script](interview-scripts/123-write-a-deployment-with-three-replicas-and-a-readiness.yaml)
+<a href="interview-scripts/123-write-a-deployment-with-three-replicas-and-a-readiness.yaml"><img src="https://img.shields.io/badge/Question%20123%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 123 script"></a>
 ```yaml
 # Question 123: Write a Deployment with three replicas and a readiness probe.
 apiVersion: apps/v1
@@ -4743,7 +4743,7 @@ spec:
 
 124. Write a Service that selects only stable Pods.
 **Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
-Script: [Question 124 script](interview-scripts/124-write-a-service-that-selects-only-stable-pods.yaml)
+<a href="interview-scripts/124-write-a-service-that-selects-only-stable-pods.yaml"><img src="https://img.shields.io/badge/Question%20124%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 124 script"></a>
 ```yaml
 # Question 124: Write a Service that selects only stable Pods.
 apiVersion: apps/v1
@@ -4781,7 +4781,7 @@ spec:
 
 125. Mount one ConfigMap key as a file.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 125 script](interview-scripts/125-mount-one-configmap-key-as-a-file.yaml)
+<a href="interview-scripts/125-mount-one-configmap-key-as-a-file.yaml"><img src="https://img.shields.io/badge/Question%20125%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 125 script"></a>
 ```yaml
 # Question 125: Mount one ConfigMap key as a file.
 apiVersion: apps/v1
@@ -4819,7 +4819,7 @@ spec:
 
 126. Inject a Secret as an environment variable without committing plaintext.
 **Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
-Script: [Question 126 script](interview-scripts/126-inject-a-secret-as-an-environment-variable-without-comm.yaml)
+<a href="interview-scripts/126-inject-a-secret-as-an-environment-variable-without-comm.yaml"><img src="https://img.shields.io/badge/Question%20126%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 126 script"></a>
 ```yaml
 # Question 126: Inject a Secret as an environment variable without committing plaintext.
 apiVersion: apps/v1
@@ -4857,7 +4857,7 @@ spec:
 
 127. Write a Job that retries a migration three times.
 **Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
-Script: [Question 127 script](interview-scripts/127-write-a-job-that-retries-a-migration-three-times.yaml)
+<a href="interview-scripts/127-write-a-job-that-retries-a-migration-three-times.yaml"><img src="https://img.shields.io/badge/Question%20127%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 127 script"></a>
 ```yaml
 # Question 127: Write a Job that retries a migration three times.
 apiVersion: apps/v1
@@ -4895,7 +4895,7 @@ spec:
 
 128. Write a non-overlapping CronJob for a nightly report.
 **Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
-Script: [Question 128 script](interview-scripts/128-write-a-non-overlapping-cronjob-for-a-nightly-report.yaml)
+<a href="interview-scripts/128-write-a-non-overlapping-cronjob-for-a-nightly-report.yaml"><img src="https://img.shields.io/badge/Question%20128%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 128 script"></a>
 ```yaml
 # Question 128: Write a non-overlapping CronJob for a nightly report.
 apiVersion: apps/v1
@@ -4933,7 +4933,7 @@ spec:
 
 129. Add CPU and memory requests and limits to a Deployment.
 **Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
-Script: [Question 129 script](interview-scripts/129-add-cpu-and-memory-requests-and-limits-to-a-deployment.yaml)
+<a href="interview-scripts/129-add-cpu-and-memory-requests-and-limits-to-a-deployment.yaml"><img src="https://img.shields.io/badge/Question%20129%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 129 script"></a>
 ```yaml
 # Question 129: Add CPU and memory requests and limits to a Deployment.
 apiVersion: apps/v1
@@ -4971,7 +4971,7 @@ spec:
 
 130. Write a liveness probe for a stuck HTTP process.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 130 script](interview-scripts/130-write-a-liveness-probe-for-a-stuck-http-process.yaml)
+<a href="interview-scripts/130-write-a-liveness-probe-for-a-stuck-http-process.yaml"><img src="https://img.shields.io/badge/Question%20130%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 130 script"></a>
 ```yaml
 # Question 130: Write a liveness probe for a stuck HTTP process.
 apiVersion: apps/v1
@@ -5009,7 +5009,7 @@ spec:
 
 131. Write an HPA scaling between two and ten replicas at 70% CPU.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 131 script](interview-scripts/131-write-an-hpa-scaling-between-two-and-ten-replicas-at-70.yaml)
+<a href="interview-scripts/131-write-an-hpa-scaling-between-two-and-ten-replicas-at-70.yaml"><img src="https://img.shields.io/badge/Question%20131%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 131 script"></a>
 ```yaml
 # Question 131: Write an HPA scaling between two and ten replicas at 70% CPU.
 apiVersion: apps/v1
@@ -5047,7 +5047,7 @@ spec:
 
 132. Write an Ingress route for `/api` with TLS.
 **Answer:** Use explicit authentication, timeouts, status handling, pagination, rate-limit handling, and structured response validation; never place credentials in source.
-Script: [Question 132 script](interview-scripts/132-write-an-ingress-route-for-api-with-tls.yaml)
+<a href="interview-scripts/132-write-an-ingress-route-for-api-with-tls.yaml"><img src="https://img.shields.io/badge/Question%20132%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 132 script"></a>
 ```yaml
 # Question 132: Write an Ingress route for `/api` with TLS.
 apiVersion: apps/v1
@@ -5085,7 +5085,7 @@ spec:
 
 133. Write a default-deny NetworkPolicy and an API allow rule.
 **Answer:** Use explicit authentication, timeouts, status handling, pagination, rate-limit handling, and structured response validation; never place credentials in source.
-Script: [Question 133 script](interview-scripts/133-write-a-default-deny-networkpolicy-and-an-api-allow-rul.yaml)
+<a href="interview-scripts/133-write-a-default-deny-networkpolicy-and-an-api-allow-rul.yaml"><img src="https://img.shields.io/badge/Question%20133%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 133 script"></a>
 ```yaml
 # Question 133: Write a default-deny NetworkPolicy and an API allow rule.
 apiVersion: apps/v1
@@ -5123,7 +5123,7 @@ spec:
 
 134. Write a PVC and mount it at `/var/lib/app`.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 134 script](interview-scripts/134-write-a-pvc-and-mount-it-at-var-lib-app.yaml)
+<a href="interview-scripts/134-write-a-pvc-and-mount-it-at-var-lib-app.yaml"><img src="https://img.shields.io/badge/Question%20134%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 134 script"></a>
 ```yaml
 # Question 134: Write a PVC and mount it at `/var/lib/app`.
 apiVersion: apps/v1
@@ -5161,7 +5161,7 @@ spec:
 
 135. Write a PodDisruptionBudget preserving one replica.
 **Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
-Script: [Question 135 script](interview-scripts/135-write-a-poddisruptionbudget-preserving-one-replica.yaml)
+<a href="interview-scripts/135-write-a-poddisruptionbudget-preserving-one-replica.yaml"><img src="https://img.shields.io/badge/Question%20135%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 135 script"></a>
 ```yaml
 # Question 135: Write a PodDisruptionBudget preserving one replica.
 apiVersion: apps/v1
@@ -5199,7 +5199,7 @@ spec:
 
 136. Write a zero-unavailable rolling update.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 136 script](interview-scripts/136-write-a-zero-unavailable-rolling-update.yaml)
+<a href="interview-scripts/136-write-a-zero-unavailable-rolling-update.yaml"><img src="https://img.shields.io/badge/Question%20136%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 136 script"></a>
 ```yaml
 # Question 136: Write a zero-unavailable rolling update.
 apiVersion: apps/v1
@@ -5237,7 +5237,7 @@ spec:
 
 137. Template an image repository and tag with Helm values.
 **Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
-Script: [Question 137 script](interview-scripts/137-template-an-image-repository-and-tag-with-helm-values.yaml)
+<a href="interview-scripts/137-template-an-image-repository-and-tag-with-helm-values.yaml"><img src="https://img.shields.io/badge/Question%20137%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 137 script"></a>
 ```yaml
 # Question 137: Template an image repository and tag with Helm values.
 apiVersion: apps/v1
@@ -5275,7 +5275,7 @@ spec:
 
 138. Write Helm helpers for stable names and labels.
 **Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
-Script: [Question 138 script](interview-scripts/138-write-helm-helpers-for-stable-names-and-labels.yaml)
+<a href="interview-scripts/138-write-helm-helpers-for-stable-names-and-labels.yaml"><img src="https://img.shields.io/badge/Question%20138%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 138 script"></a>
 ```yaml
 # Question 138: Write Helm helpers for stable names and labels.
 apiVersion: apps/v1
@@ -5313,7 +5313,7 @@ spec:
 
 139. Write a Helm test Pod for a Service endpoint.
 **Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
-Script: [Question 139 script](interview-scripts/139-write-a-helm-test-pod-for-a-service-endpoint.yaml)
+<a href="interview-scripts/139-write-a-helm-test-pod-for-a-service-endpoint.yaml"><img src="https://img.shields.io/badge/Question%20139%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 139 script"></a>
 ```yaml
 # Question 139: Write a Helm test Pod for a Service endpoint.
 apiVersion: apps/v1
@@ -5351,7 +5351,7 @@ spec:
 
 140. Spread replicas across availability zones.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 140 script](interview-scripts/140-spread-replicas-across-availability-zones.yaml)
+<a href="interview-scripts/140-spread-replicas-across-availability-zones.yaml"><img src="https://img.shields.io/badge/Question%20140%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 140 script"></a>
 ```yaml
 # Question 140: Spread replicas across availability zones.
 apiVersion: apps/v1
@@ -5389,7 +5389,7 @@ spec:
 
 141. Write pod anti-affinity for same-application replicas.
 **Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
-Script: [Question 141 script](interview-scripts/141-write-pod-anti-affinity-for-same-application-replicas.yaml)
+<a href="interview-scripts/141-write-pod-anti-affinity-for-same-application-replicas.yaml"><img src="https://img.shields.io/badge/Question%20141%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 141 script"></a>
 ```yaml
 # Question 141: Write pod anti-affinity for same-application replicas.
 apiVersion: apps/v1
@@ -5427,7 +5427,7 @@ spec:
 
 142. Write taints and tolerations for a dedicated node pool.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 142 script](interview-scripts/142-write-taints-and-tolerations-for-a-dedicated-node-pool.yaml)
+<a href="interview-scripts/142-write-taints-and-tolerations-for-a-dedicated-node-pool.yaml"><img src="https://img.shields.io/badge/Question%20142%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 142 script"></a>
 ```yaml
 # Question 142: Write taints and tolerations for a dedicated node pool.
 apiVersion: apps/v1
@@ -5465,7 +5465,7 @@ spec:
 
 143. Write a restricted security context with dropped capabilities.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 143 script](interview-scripts/143-write-a-restricted-security-context-with-dropped-capabi.yaml)
+<a href="interview-scripts/143-write-a-restricted-security-context-with-dropped-capabi.yaml"><img src="https://img.shields.io/badge/Question%20143%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 143 script"></a>
 ```yaml
 # Question 143: Write a restricted security context with dropped capabilities.
 apiVersion: apps/v1
@@ -5503,7 +5503,7 @@ spec:
 
 144. Write a namespace ResourceQuota.
 **Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
-Script: [Question 144 script](interview-scripts/144-write-a-namespace-resourcequota.yaml)
+<a href="interview-scripts/144-write-a-namespace-resourcequota.yaml"><img src="https://img.shields.io/badge/Question%20144%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 144 script"></a>
 ```yaml
 # Question 144: Write a namespace ResourceQuota.
 apiVersion: apps/v1
@@ -5541,7 +5541,7 @@ spec:
 
 145. Write a LimitRange with default requests and limits.
 **Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Kubernetes/Docker.
-Script: [Question 145 script](interview-scripts/145-write-a-limitrange-with-default-requests-and-limits.yaml)
+<a href="interview-scripts/145-write-a-limitrange-with-default-requests-and-limits.yaml"><img src="https://img.shields.io/badge/Question%20145%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 145 script"></a>
 ```yaml
 # Question 145: Write a LimitRange with default requests and limits.
 apiVersion: apps/v1
@@ -5579,7 +5579,7 @@ spec:
 
 146. Write a canary Service selecting `track: canary`.
 **Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
-Script: [Question 146 script](interview-scripts/146-write-a-canary-service-selecting-track-canary.yaml)
+<a href="interview-scripts/146-write-a-canary-service-selecting-track-canary.yaml"><img src="https://img.shields.io/badge/Question%20146%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 146 script"></a>
 ```yaml
 # Question 146: Write a canary Service selecting `track: canary`.
 apiVersion: apps/v1
@@ -5617,7 +5617,7 @@ spec:
 
 147. Write a ServiceAccount for cloud workload identity.
 **Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
-Script: [Question 147 script](interview-scripts/147-write-a-serviceaccount-for-cloud-workload-identity.yaml)
+<a href="interview-scripts/147-write-a-serviceaccount-for-cloud-workload-identity.yaml"><img src="https://img.shields.io/badge/Question%20147%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 147 script"></a>
 ```yaml
 # Question 147: Write a ServiceAccount for cloud workload identity.
 apiVersion: apps/v1
@@ -5655,7 +5655,7 @@ spec:
 
 148. Pin an image by digest to prevent tag drift.
 **Answer:** Use declarative manifests with pinned images, probes, resource controls, least-privilege identity, and a rollout strategy that can be observed and rolled back.
-Script: [Question 148 script](interview-scripts/148-pin-an-image-by-digest-to-prevent-tag-drift.yaml)
+<a href="interview-scripts/148-pin-an-image-by-digest-to-prevent-tag-drift.yaml"><img src="https://img.shields.io/badge/Question%20148%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 148 script"></a>
 ```yaml
 # Question 148: Pin an image by digest to prevent tag drift.
 apiVersion: apps/v1
@@ -5693,7 +5693,7 @@ spec:
 
 149. Write a backup CronJob with least privilege.
 **Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
-Script: [Question 149 script](interview-scripts/149-write-a-backup-cronjob-with-least-privilege.yaml)
+<a href="interview-scripts/149-write-a-backup-cronjob-with-least-privilege.yaml"><img src="https://img.shields.io/badge/Question%20149%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 149 script"></a>
 ```yaml
 # Question 149: Write a backup CronJob with least privilege.
 apiVersion: apps/v1
@@ -5731,7 +5731,7 @@ spec:
 
 150. Build a Helm application with probes, autoscaling, policy, security, and rollback.
 **Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
-Script: [Question 150 script](interview-scripts/150-build-a-helm-application-with-probes-autoscaling-policy.yaml)
+<a href="interview-scripts/150-build-a-helm-application-with-probes-autoscaling-policy.yaml"><img src="https://img.shields.io/badge/Question%20150%20script-Open-2088FF?style=for-the-badge&logo=github&logoColor=white" alt="Open question 150 script"></a>
 ```yaml
 # Question 150: Build a Helm application with probes, autoscaling, policy, security, and rollback.
 apiVersion: apps/v1
